@@ -17,7 +17,7 @@ jobs:
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
         with:
           pin-name: 'My personal site'  # Replace with your desired pin name
-          path: 'C:/Users/hhali.DELL/Documents/Decentralisation/web'              # Replace with the path to your build directory
+          path: 'web'              # Replace with the path to your build directory
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
           verbose: true
