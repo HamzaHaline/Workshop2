@@ -17,7 +17,7 @@ jobs:
         uses: anantaramdas/ipfs-pinata-deploy-action@v1.6.4
         with:
           pin-name: 'My personal site'  # Replace with your desired pin name
-          path: '/home/runner/work/Workshop2/Workshop2/C/Users/hhali.DELL/Documents/Decentralisation/web'              # Replace with the path to your build directory
+          path: '~/Workshop2/web'              # Replace with the path to your build directory
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_SECRET_API_KEY }}
           verbose: true
